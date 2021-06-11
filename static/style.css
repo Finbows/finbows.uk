@@ -18,7 +18,8 @@ header::after {
     clear:both;
 }
 h1 {
-    font-style:60px;
+    font-size:60px;
+    padding-left: 50px;
     font-family: 'poppins';
     font-weight: 400;
     color: white;
