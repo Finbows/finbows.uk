@@ -9,10 +9,48 @@ body{
 
     margin: 0;
     background: #222;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-header{
+header {
 background: #55d6aa;
+
+}
+header::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+nav{
+
+    float:right;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 70px;
+    display: inline-block;
+    padding-top: 23px;
+
+}
+
+nav a {
+color: #444;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav a:hover {
+color: #000;
 
 }
