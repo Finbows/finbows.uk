@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -15,7 +18,7 @@ header::after {
     clear:both;
 }
 h1 {
-    font-family: Montserrat;
+    font-family: 'poppins';
     font-weight: 400;
     color: white;
     margin:0;
