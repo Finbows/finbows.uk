@@ -10,7 +10,7 @@ body{
     font-weight: 400;
 }   
 header {
-    background-color: #152238; 
+    background-color: #444f57; 
 }
 header::after {
     content: '';
@@ -21,12 +21,14 @@ h1 {
     font-size:60px;
     padding-left: 50px;
     font-family: 'poppins';
-    font-weight: 400;
+    font-weight: 700;
     color: white;
     margin:0;
     text-transform: uppercase;
 }
 nav{
+    font-family: 'poppins';
+    font-weight: 200px;
     font-size: 25px;
     float:left;
 }  
@@ -35,9 +37,9 @@ nav ul {
     list-style: none;
 } 
 nav li {
-    margin-left: 150px;
+    margin-left: 200px;
     display: inline-block;
-    padding-top: 55px;
+    padding-top: 10px;
 }
 nav a {
     color: white;
