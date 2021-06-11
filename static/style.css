@@ -18,7 +18,7 @@ header::after {
     clear:both;
 }
 h1 {
-    font-style:40px;
+    font-style:60px;
     font-family: 'poppins';
     font-weight: 400;
     color: white;
@@ -34,7 +34,7 @@ nav ul {
     list-style: none;
 } 
 nav li {
-    margin-left: 250px;
+    margin-left: 150px;
     display: inline-block;
     padding-top: 55px;
 }
