@@ -18,6 +18,7 @@ header::after {
     clear:both;
 }
 h1 {
+    font-style:40px;
     font-family: 'poppins';
     font-weight: 400;
     color: white;
@@ -25,17 +26,17 @@ h1 {
     text-transform: uppercase;
 }
 nav{
-    float:right;
+    font-size: 25px;
+    float:left;
 }  
 nav ul {
     margin: 0;  
-    padding: 0;
     list-style: none;
 } 
 nav li {
-    margin-left: 150px;
+    margin-left: 250px;
     display: inline-block;
-    padding-top: 25px;
+    padding-top: 55px;
 }
 nav a {
     color: white;
