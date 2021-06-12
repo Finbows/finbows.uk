@@ -39,8 +39,10 @@ nav ul {
     list-style: none;
 } 
 nav li {
-    margin-left: 250px;
+    margin-left: 225px;
     display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 nav a {
     color: white;
