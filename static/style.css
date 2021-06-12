@@ -120,10 +120,11 @@ p a:visited {
   .grid-container > div {
     background-color: rgba(241, 238, 238, 0.877);
     text-align: center;
-    font-size: 30px;
     height: 300px;
-    padding-right: 150px;
-    padding-left: 150px;
+    width: 500px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
   }
   .grid-container > .projectContent {
     position: absolute;
@@ -131,14 +132,16 @@ p a:visited {
     left: 0;
     height: 100%;
     width: 100%;
+    font-size:16px;
+
   }
   .projectTitle {
-    font-size:18px;
+    font-size:22px;
   }
 
   .projectDesc {
-    font-size:16px;
+    font-size:18px;
   }
   .link {
-    font-size:14px;
+    font-size:18px;
   }
