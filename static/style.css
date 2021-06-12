@@ -29,12 +29,13 @@ h1 {
     color: whitesmoke;
     margin:0;
     text-transform: uppercase;
+    float: left;
 }
 nav{
     font-family: 'poppins';
     font-weight: 200;
     font-size: 20px;
-    float:left;
+    float:right;
 }  
 nav ul {
     margin: 0;  
