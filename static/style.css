@@ -94,8 +94,7 @@ h2:after {
     display:block;
     border:1px solid rgba(0, 0, 0, .05);;
     border-radius:1px;
-    border-width: 500px;
-
+    width:1000px;
 }
 p a {
     color: rgb(85, 177, 235);
