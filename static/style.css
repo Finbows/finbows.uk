@@ -9,6 +9,10 @@ body{
     margin: 0;
     background: white;
     font-weight: 400;
+    font-size: 16px;
+    font-family: Helvetica,sans-serif;
+    padding-left: 150px;
+    line-height: 1.67;
 }   
 header {
     background-color: #444f57; 
@@ -79,11 +83,4 @@ h2 {
     display: block;
     font-size: 24px;
     font-weight: bold;
-}
-body {
-    color: black;
-    font-size: 16px;
-    font-family: Helvetica,sans-serif;
-    font-variant-ligatures: common-ligatures;
-    line-height: 1.67;
 }
