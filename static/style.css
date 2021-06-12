@@ -94,12 +94,6 @@ h2 {
     color: rgb(17, 17, 17);
     padding-right:150px;
 }
-h2:after {
-    content:' ';
-    display:block;
-    height:4px solid rgba(0, 0, 0, .05);;
-    width:1000px;
-}
 p a {
     color: rgb(85, 177, 235);
 }
