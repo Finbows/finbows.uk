@@ -3,7 +3,7 @@
 
 .main-header{
     text-decoration: none;
-    background-color: whitesmoke; 
+    color: whitesmoke; 
 }
 .container{
     width: 80%;
@@ -148,8 +148,17 @@ p a:visited {
     font-size:18px;
   }
   .link {
+    color: rgb(85, 177, 235);
     font-size:18px;
   }
+  link:hover{
+    color: rgb(85, 177, 235);
+    text-decoration: none;
+}
+link:visited { 
+    color: rgb(85, 177, 235);
+    text-decoration: none; 
+}
   .hello {
     font-family:'Poppins';
     padding: 150px 0 100px;
@@ -163,4 +172,11 @@ p a:visited {
     
     @keyframes blinker {  
       50% { opacity: 0; }
+    }
+    footer {
+    position: absolute;
+    height:100px;
+    background-color: #444f57;
+    color: whitesmoke;
+
     }
