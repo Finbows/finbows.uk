@@ -145,7 +145,7 @@ p a:visited {
   .link {
     font-size:18px;
   }
-  #hello {
+  .hello {
     font-family:'Poppins';
     padding: 150px 0 100px;
     text-align: center;
