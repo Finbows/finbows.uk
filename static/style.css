@@ -133,10 +133,13 @@ p a:visited {
     width: 100%;
     font-size:24px
   }
-  .projectTitle{
+  .projectTitle {
     font-size:18px;
   }
 
-  .projectDesc{
+  .projectDesc {
+    font-size:16px;
+  }
+  .link {
     font-size:14px;
   }
