@@ -19,9 +19,9 @@ header::after {
     clear:both;
 }
 h1 {
-    font-size:50px;
-    letter-spacing: 5px;
-    padding-left: 50px;
+    font-size:40px;
+    letter-spacing: -2px;
+    padding-left: 150px;
     font-family: 'Monserrat','poppins';
     font-weight: 700;
     color: white;
@@ -39,10 +39,10 @@ nav ul {
     list-style: none;
 } 
 nav li {
-    margin-left: 225px;
+    margin-left: 200px;
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 nav a {
     color: white;
