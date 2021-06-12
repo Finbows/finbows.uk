@@ -131,4 +131,13 @@ p a:visited {
     left: 0;
     height: 100%;
     width: 100%;
+    align-content: left;
+    font-size:24px
+  }
+  .projectTitle{
+    font-size:18px;
+  }
+
+  .projectDesc{
+    font-size:14px;
   }
