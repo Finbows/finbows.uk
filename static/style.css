@@ -85,7 +85,7 @@ p {
 h2 {
     padding-left: 150px;
     display: block;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(17, 17, 17);
     padding-right:150px;
@@ -145,3 +145,17 @@ p a:visited {
   .link {
     font-size:18px;
   }
+  #hello{
+    font-family:'Poppins';
+    padding: 150px 0 100px;
+    text-align: center;
+    font-size: 80px; 
+    height:200px;
+    }
+    .blink_me {
+      animation: blinker 1s linear infinite;
+    }
+    
+    @keyframes blinker {  
+      50% { opacity: 0; }
+    }
