@@ -81,7 +81,6 @@ nav a:hover::before {
 }
 
 p { 
-    height:600px;
     padding-left: 150px;
     display: block;  
     font-size: 18px;
