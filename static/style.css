@@ -94,7 +94,6 @@ h2:after {
     content:' ';
     display:block;
     border:1px solid rgba(0, 0, 0, .05);;
-    border-radius:1px;
     width:1000px;
 }
 p a {
