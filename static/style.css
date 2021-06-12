@@ -39,9 +39,8 @@ nav ul {
     list-style: none;
 } 
 nav li {
-    margin-left: 300px;
+    margin-left: 250px;
     display: inline-block;
-    padding-top: 10px;
 }
 nav a {
     color: white;
