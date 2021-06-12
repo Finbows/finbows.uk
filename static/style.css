@@ -173,8 +173,9 @@ p a:visited {
       50% { opacity: 0; }
     }
     footer {
-    position: absolute;
-    bottom: 0;
+    font-family: 'poppins';
+    font-size: 14px;
+    position: fixed;
     top: 0;
     left: 0;
     width:100%;
