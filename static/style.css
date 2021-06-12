@@ -24,7 +24,7 @@ h1 {
     padding-left: 150px;
     font-family: 'Monserrat','poppins';
     font-weight: 700;
-    color: white;
+    color: whitesmoke;
     margin:0;
     text-transform: uppercase;
 }
@@ -46,7 +46,7 @@ nav li {
     position: relative;
 }
 nav a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -59,7 +59,7 @@ nav a::before {
     display:block;
     height: 5px;
     width: 100%;
-    background-color:#444f57;
+    background-color: whitesmoke;
 
     position: absolute;
     top:0;
@@ -80,4 +80,20 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    color: black;
+    font-size: 16px;
+    font-family: Lato,Helvetica Neue,Helvetica,sans-serif;
+    font-variant-ligatures: common-ligatures;
+    line-height: 1.67;
 }
