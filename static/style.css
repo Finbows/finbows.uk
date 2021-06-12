@@ -9,9 +9,7 @@ body{
     margin: 0;
     background: white;
     font-weight: 400;
-    font-size: 16px;
     font-family: Helvetica,sans-serif;
-    padding-left: 150px;
     line-height: 1.67;
 }   
 header {
@@ -77,10 +75,15 @@ nav a:hover::before {
 }
 
 p { 
+    padding-left: 150px;
     display: block;  
+    font-size: 16px;
+    color: black;
 }
 h2 {
+    padding-left: 150px;
     display: block;
     font-size: 24px;
     font-weight: bold;
+    color: black;
 }
