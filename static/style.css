@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+#main-header{
+    text-decoration: none;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -109,7 +112,8 @@ p a:visited {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
     background-color: rgba(255, 255, 255, 0.753);
     padding: 10px;
