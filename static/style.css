@@ -86,7 +86,12 @@ p {
     font-size: 18px;
     color: rgb(29, 28, 28);
 }
-h2 {
+
+.projects {
+    text-align: center;
+}
+
+h2{
     padding-left: 150px;
     display: block;
     font-size: 30px;
@@ -105,74 +110,105 @@ p a:visited {
     color: rgb(85, 177, 235);
     text-decoration: none; 
 }
+
+/* When the screen is bigger than 1444px make it 2 columns */
+@media screen and (min-width: 1444px) {
+    .grid-container {
+        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+        background-color: rgba(255, 255, 255, 0.753);
+        padding-right: 150px;
+        padding-left: 150px;
+      }
+    .grid-container > div {
+        background-color: rgba(241, 238, 238, 0.877);
+        height: 300px;
+        width: 500px;
+        
+
+    }
+    
+}
+
+
+/* Otherwise just a plain grid template (if screen is smaller than 1444px) */
 .grid-container {
     display: grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    background-color: rgba(255, 255, 255, 0.753);
-    padding: 10px;
-    padding-right: 150px;
-    padding-left: 150px;
-  }
-  
-  .grid-container > div {
+}
+
+/* If screen is smaller than 1444px */
+@media screen and (max-width: 1444px) {
+    .grid-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    h2 {
+        text-align: start;
+        width: min-content;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.grid-container > div {
     background-color: rgba(241, 238, 238, 0.877);
     text-align: center;
-    height: 300px;
-    width: 500px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 1.25rem;
+    min-width: 200px;
+    margin-bottom: 10px;
     text-align: justify;
-  }
-  .grid-container > .projectContent {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    font-size:16px;
+    /* make them rounded */
+    border-radius: 6px;
+}
+.grid-container > .projectContent {
+position: relative;
+height: 100%;
+width: 100%;
+font-size:16px;
 
-  }
-  .projectTitle {
-    font-size:22px;
-  }
+}
+.projectTitle {
+font-size:22px;
+}
 
-  .projectDesc {
+.projectDesc {
     font-size:18px;
-     }
-  .link {
+}
+.link {
     color: rgb(85, 177, 235);
     font-size:18px;
-    }
-  link:hover{
+}
+link:hover{
     color: rgb(85, 177, 235);
     text-decoration: none;
-    }
-    link:visited { 
+}
+link:visited { 
     color: rgb(85, 177, 235);
     text-decoration: none; 
-    }
-  .hello {
+}
+.hello {
     font-family:'Poppins';
     padding: 150px 0 100px;
     text-align: center;
     font-size: 80px; 
     height:200px;
-    }
-    .blink_me {
-      animation: blinker 1s linear infinite;
-    }
-    @keyframes blinker {  
-      50% { opacity: 0; }
-    }
-    #footer {
-        background: #343b40;
-        padding-left: 150px;
-        color: #fff;
-        font-size: 18px;
-        clear: both;
-        position: relative;
-        height: 50px;
-        margin-top: 0px;
-        }
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+    50% { opacity: 0; }
+}
+#footer {
+    background: #343b40;
+    padding-left: 150px;
+    color: #fff;
+    font-size: 18px;
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: 0px;
+}
