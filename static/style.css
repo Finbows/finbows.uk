@@ -17,17 +17,94 @@ body{
     line-height: 1.67;
 }   
 header {
-    background-color: #444f57; 
+    background-color: #444f57;
+    position: fixed;
+    width: 100%;
 }
 header::after {
     content: '';
     display: table;
     clear:both;
 }
-h1 {
+
+.main-header {
+    cursor: pointer;
+}
+
+/* Navbar toggle button mess starts here */
+/* Basically show the button when the screen is smaller and when its clicked it changes ands shows the menu */
+.navbar-burger {
+    color: white;
+    cursor: pointer;
+    display: block;
+    height: 3.75rem;
+    position: relative;
+    width: 3.75rem;
+    margin-left: auto;
+}
+
+.navbar-burger span {
+    background-color: white;
+    display: block;
+    height: 1px;
+    left: calc(50% - 8px);
+    position: absolute;
+    transform-origin: center;
+    transition-duration: 86ms;
+    transition-property: background-color, opacity, transform;
+    transition-timing-function: ease-out;
+    width: 16px;
+}
+
+.navbar-burger span:nth-child(1) {
+    top: calc(50% - 6px);
+}
+
+.navbar-burger span:nth-child(2) {
+    top: calc(50% - 1px);
+}
+
+.navbar-burger span:nth-child(3) {
+    top: calc(50% + 4px);
+}
+
+.navbar-burger:hover {
+    color: white;
+}
+
+.navbar-burger.is-active span:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.navbar-burger.is-active span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-burger.is-active span:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+.container {
+    display: none;
+}
+
+.container.is-active {
+    display: block;
+}
+
+.container.is-active > nav >.menuList > li {
+    margin-left: 1%;
+}
+
+.container.is-active > nav > .menuList {
+    padding-left: 0;
+    padding-bottom: 5%;
+}
+
+h1{
     font-size:40px;
+    padding-left: 5%;
     letter-spacing: -2px;
-    padding-left: 150px;
     font-family: 'Monserrat','poppins';
     font-weight: 700;
     color: whitesmoke;
@@ -35,6 +112,19 @@ h1 {
     text-transform: uppercase;
     float: left;
 }
+
+@media screen and (min-width: 1325px) {
+    h1 {
+        padding-left: 150px;
+    }
+    .navbar-burger {
+        display: none;
+    }
+    .container {
+        display: block;
+    }
+}
+
 nav{
     font-family: 'poppins';
     font-weight: 200;

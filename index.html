@@ -12,14 +12,33 @@
     <meta name="owner" content="">
     <meta name="url" content="">
     <meta name="identifier-URL" content="">
+    <script>
+        function scrollUp() {
+            document.location.replace('#')
+        }
+        function toggleNavbar () {
+            // get the button (burger) and the menu 
+            const burger = document.getElementById('burger');
+            const menu = document.getElementById('menu');
+
+            // toggle the is-active class that changes the elements visibility
+            burger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+        }
+    </script>
 <link rel="stylesheet" type="text/css" href="/viresin21/static/style.css"> 
 </head>
 <body>
 <header>
-    <h1 class="main-header">viresin21. </h1>
-<div class="container">                    
+    <h1 class="main-header" onclick="scrollUp()">viresin21.</h1>
+    <a onclick="toggleNavbar()" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav" id="burger">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+<div class="container" id="menu">                    
     <nav>
-        <ul>
+        <ul class="menuList">
             <li><a href="https://github.com/viresin21?tab=repositories">Projects</a></li>
             <li><a href="#">Blog (coming soon)</a></li>
             <li><a href="#bitcoin-tools">Bitcoin Tools</a></li>
