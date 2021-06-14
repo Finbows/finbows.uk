@@ -178,18 +178,6 @@ p {
     color: rgb(29, 28, 28);
 }
 
-@media screen and (max-width: 1444px) {
-    p {
-        margin-left:10px;
-        text-align: left;
-      }
-    h2 {
-        margin-left:10px;
-        text-align: left;
-    }
-    
-}
-
 h2{
     margin-left: 150px;
     display: block;
@@ -244,11 +232,13 @@ p a:visited {
         padding-left: 5%;
         padding-right: 5%;
     }
+    p {
+        margin-left:10px;
+        text-align: left;
+      }
     h2 {
-        text-align: start;
-        width: min-content;
-        padding-left: 5%;
-        padding-right: 5%;
+        margin-left:10px;
+        text-align: left;
     }
 }
 
