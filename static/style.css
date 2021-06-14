@@ -183,10 +183,6 @@ p {
         margin-left:10px;
         text-align: left;
       }
-    .projects {
-        margin-left:10px;
-        text-align: left;
-    }
     h2 {
         margin-left:10px;
         text-align: left;
@@ -194,9 +190,6 @@ p {
     
 }
 
-.projects {
-    margin-left: 150px;
-}
 h2{
     margin-left: 150px;
     display: block;
