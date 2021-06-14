@@ -172,7 +172,7 @@ nav a:hover::before {
 
 p { 
     width: 80%;
-    text-align: center;
+    text-align: left;
     display: block;  
     font-size: 20px;
     color: rgb(29, 28, 28);
@@ -189,7 +189,7 @@ p {
 h2{
     width: 80%;
     display: block;
-    text-align: center;
+    text-align: left;
     font-size: 34px;
     font-weight: bold;
     color: rgb(17, 17, 17);
