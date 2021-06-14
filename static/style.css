@@ -180,12 +180,8 @@ p {
 .projects {
     margin-left: 150px;
 }
-
-.bitcoin-tools {
-    margin-left: 150px;
-}
-
 h2{
+    margin-left: 150px;
     display: block;
     text-align: left;
     font-size: 34px;
