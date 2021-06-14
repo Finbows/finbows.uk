@@ -171,9 +171,10 @@ nav a:hover::before {
 }
 
 p { 
+    justify-content: center;
     padding-left: 150px;
     display: block;  
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(29, 28, 28);
 }
 
@@ -182,9 +183,10 @@ p {
 }
 
 h2{
+    justify-content: center;
     padding-left: 150px;
     display: block;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
     color: rgb(17, 17, 17);
     padding-right:150px;
