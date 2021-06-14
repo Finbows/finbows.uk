@@ -178,7 +178,7 @@ p {
     color: rgb(29, 28, 28);
 }
 
-@media screen and (min-width: 1444px) {
+@media screen and (max-width: 1444px) {
     p {
         margin-left:10px;
         text-align: left;
