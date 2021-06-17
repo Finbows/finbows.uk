@@ -211,6 +211,7 @@ p a:visited {
         padding-left: 150px;
       }
     .grid-container > div {
+        background-color: var(--bkgd-color);
         height: 300px;
         width: 500px;
         
