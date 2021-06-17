@@ -311,6 +311,6 @@ link:visited {
     :root {
         --title-color: white;
         --bkgd-color: black;
-        --grid-cont: #444f57;
+        --grid-cont: #1f282eaf;
     }
 }
