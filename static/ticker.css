@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 /* Ticker */
 @-webkit-keyframes ticker {
     0% {
@@ -32,7 +32,8 @@
     box-sizing: content-box;
     border-bottom: 1px solid #000;
     background-color: #444f57;
-    font-size:16px;
+    font-size:14px;
+    font-family: 'poppins';
 }
 .ticker-wrap .ticker {
     display: inline-block;
