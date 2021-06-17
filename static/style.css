@@ -175,7 +175,7 @@ p {
     text-align: left;
     display: block;  
     font-size: 20px;
-    background-color: var(--title-color)
+    color: var(--title-color)
 }
 
 h2{
@@ -211,7 +211,6 @@ p a:visited {
         padding-left: 150px;
       }
     .grid-container > div {
-        background-color: var(--grid-cont);
         height: 300px;
         width: 500px;
         
