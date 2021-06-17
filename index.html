@@ -12,6 +12,7 @@
     <meta name="owner" content="">
     <meta name="url" content="">
     <meta name="identifier-URL" content="">
+      
     <script>
         function scrollUp() {
             document.location.replace('#')
@@ -28,7 +29,7 @@
     </script>
 <link rel="stylesheet" type="text/css" href="static/style.css"> 
 <link rel="stylesheet" type="text/css" href="static/ticker.css"> 
-
+<script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
 </head>
 <body>
 <header>
@@ -52,7 +53,8 @@
         <div class="ticker">
             <div class="ticker__item">Current Price: $${price}</div> 
             <div class="ticker__item">Current Block Height: ${blockHeight}</div> 
-            <div class="ticker__item">Current Mempool Size: ${mempoolSize}</div> 
+            <div class="ticker__item">Current Mempool Size: ${mempoolSize} vMB</div> 
+            <!--div class="ticker__item">Current Hashrate: ${hashRate} EHash/s</div-->
             <div class="ticker__item">Current Difficulty: ${difficulty}</div> 
         </div>
     </div>
@@ -63,9 +65,9 @@
       data: {
         blockHeight: null,
         mempoolSize: null,
-        price: "$9,627.75",
-        hashRate: 81.8,
-        difficulty: 6379265451411,
+        price: null,
+        hashRate: null,
+        difficulty: null,
       },
       methods: {
         refresh: function () {
