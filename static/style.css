@@ -175,7 +175,7 @@ p {
     text-align: left;
     display: block;  
     font-size: 20px;
-    color: rgb(29, 28, 28);
+    color: var(--title-color)
 }
 
 h2{
@@ -184,7 +184,7 @@ h2{
     text-align: left;
     font-size: 34px;
     font-weight: bold;
-    color: rgb(17, 17, 17);
+    color: var(--title-color)
 }
 p a {
     color: rgb(85, 177, 235);
