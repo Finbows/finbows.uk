@@ -206,12 +206,11 @@ p a:visited {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: auto auto;
         grid-gap: 20px;
-        background-color: rgba(255, 255, 255, 0.753);
+        background-color: var(--grid-cont);
         padding-right: 150px;
         padding-left: 150px;
       }
     .grid-container > div {
-        background-color: rgba(241, 238, 238, 0.877);
         height: 300px;
         width: 500px;
         
@@ -243,7 +242,7 @@ p a:visited {
 }
 
 .grid-container > div {
-    background-color: rgba(241, 238, 238, 0.877);
+    background-color: var(--grid-cont);
     text-align: center;
     padding: 1.25rem;
     min-width: 200px;
@@ -306,11 +305,13 @@ link:visited {
     color-scheme: light dark;
     --title-color: black;
     --bkgd-color: white;
+    --grid-cont: rgba(241, 238, 238, 0.877);
     }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --title-color: white;
         --bkgd-color: black;
+        --grid-cont: #444f57;
     }
 }
