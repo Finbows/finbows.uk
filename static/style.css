@@ -12,6 +12,7 @@
 body{
     margin: 0;
     background-color: var(--bkgd-color);
+    color: var(--title-color);
     font-weight: 400;
     font-family: Helvetica,sans-serif;
     line-height: 1.67;
