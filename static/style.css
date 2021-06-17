@@ -206,12 +206,11 @@ p a:visited {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: auto auto;
         grid-gap: 20px;
-        background-color: var(--grid-cont);
+        background-color: var(--bkgd-color);
         padding-right: 150px;
         padding-left: 150px;
       }
     .grid-container > div {
-        background-color: var(--bkgd-color);
         height: 300px;
         width: 500px;
         
