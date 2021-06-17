@@ -32,7 +32,7 @@
     box-sizing: content-box;
     border-bottom: 1px solid #000;
     background-color: #444f57;
-    font-size:20px;
+    font-size:16px;
 }
 .ticker-wrap .ticker {
     display: inline-block;
