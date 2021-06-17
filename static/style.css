@@ -304,7 +304,7 @@ link:visited {
     color-scheme: light dark;
     --title-color: black;
     --bkgd-color: white;
-    --grid-cont: rgba(175, 175, 175, 0.692);
+    --grid-cont: rgba(206, 195, 195, 0.685);
     }
 
 @media (prefers-color-scheme: dark) {
