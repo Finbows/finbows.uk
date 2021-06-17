@@ -290,6 +290,10 @@ link:visited {
 @keyframes blinker {  
     50% { opacity: 0; }
 }
+main {
+    background-color: var (--bkgd-color);
+
+}
 #footer {
     background: #343b40;
     padding-left: 150px;
