@@ -11,7 +11,7 @@
 }
 body{
     margin: 0;
-    background: white;
+    background-color: var(--bkgd-color);
     font-weight: 400;
     font-family: Helvetica,sans-serif;
     line-height: 1.67;
@@ -107,7 +107,7 @@ h1{
     letter-spacing: -2px;
     font-family: 'Monserrat','poppins';
     font-weight: 700;
-    color: whitesmoke;
+    color: var(--title-color);
     margin:0;
     text-transform: uppercase;
     float: left;
@@ -300,4 +300,17 @@ link:visited {
     position: relative;
     height: 50px;
     margin-top: 0px;
+}
+/*darkmode*/
+:root {
+    color-scheme: light dark;
+    --title-color: black;
+    --bkgd-color: white;
+    }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --title-color: white;
+        --bkgd-color: black;
+    }
 }
