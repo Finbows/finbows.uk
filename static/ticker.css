@@ -26,8 +26,3 @@
     font-size: 1.75rem;
     color: #000;
 }
-@media (prefers-color-scheme: dark){
-.ticker-wrap .ticker__item {
-    color: #fff;
-    }
-}
